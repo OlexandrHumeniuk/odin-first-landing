@@ -15,6 +15,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 header {
     background-color: #1F2937;
     display: flex;
@@ -107,6 +111,12 @@ button{
     border: none;
 }
 
+#cta-button {
+    border-color: #E5E7EB;
+    border: 2px solid;
+    background-color: #3882F6;
+}
+
 .about-section{
     display: flex;
     flex-direction: column;
@@ -164,6 +174,34 @@ button{
     margin-top: 10px;
     text-align: right;
     font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
+}
+
+.cta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.cta-left{
+    flex-shrink: 1;
+    margin-right: 100px;
+}
+
+.cta-left p{
+    margin-top: 5;
+    font-size: small;
+    font-weight: 100;
 }
 
 footer {
