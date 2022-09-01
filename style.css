@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 400px;
+    padding: 20px 400px 0 400px;
 }
 
 .circle {
@@ -31,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 #cat-pic {
@@ -80,6 +81,11 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    text-align: center;
+    padding: 50px 0;
+}
+
 .hero-left h1, .hero-left div{
     margin-bottom: 20px;
 }
@@ -96,6 +102,38 @@ button{
 #hero-button{
     background-color: #3882F6;
     border: none;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 400px 100px 400px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+.image-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-wrap img {
+    border-radius: 7px;
+    border: 2px solid;
+    border-color:#5793F7;
+    width: 130px;
+    height: 130px;
+}
+
+.image-wrap p {
+    margin-top: 5px;
+    color: #6D747D;
+    text-align: center;
+    max-width: 130px;
 }
 
 footer {
