@@ -53,7 +53,7 @@ header {
 
 .hero-container{
     display: flex;
-    padding: 100px 400px;
+    padding: 120px 400px;
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
@@ -96,4 +96,13 @@ button{
 #hero-button{
     background-color: #3882F6;
     border: none;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 400px;
+    color: #E5E7EB;
 }
